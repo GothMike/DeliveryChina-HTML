@@ -20,6 +20,27 @@ closeElem.addEventListener("click", () => {
   closeElem.classList.remove("menu__close_active");
   overlay.classList.remove("menu__overlay_active");
 });
+
+$(document).ready(function () {
+  $(".carousel__inner").slick({
+    speed: 1200,
+    fade: true,
+    cssEase: "linear",
+    slidesToShow: 1,
+    prevArrow: '<button type="button" class="slick-prev"><img src="../icons/left.webp"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="../icons/right.webp"></button>',
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          dotsClass: "slick-dots",
+          arrows: false,
+        },
+      },
+    ],
+  });
+});
+
 // // Карусель
 // $(document).ready(function () {
 //   $(".carousel__inner").slick({
@@ -81,46 +102,45 @@ closeElem.addEventListener("click", () => {
 //     });
 //   });
 
-//   // Валидация
-//   function validateForms(form) {
-//     $(form).validate({
-//       rules: {
-//         name: {
-//           required: true,
-//           minlength: 2,
-//         },
-//         phone: {
-//           required: true,
-//           minlength: 11,
-//         },
-//         email: {
-//           required: true,
-//           email: true,
-//         },
-//       },
-//       messages: {
-//         name: {
-//           required: "Пожалуйста, введите свое имя",
-//           minlength: jQuery.validator.format("Обязательно минимум {0} символа!"),
-//         },
-//         phone: {
-//           required: "Пожалуйста, введити свой номер телефона",
-//           minlength: jQuery.validator.format("Обязательно минимум {0} символа!"),
-//         },
-//         email: {
-//           required: "Нам нужен ваш адрес для отправки вам письма",
-//           email: "Неправильно введен адрес почты",
-//         },
-//       },
-//     });
-//   }
+// Валидация
+function validateForms(form) {
+  $(form).validate({
+    rules: {
+      name: {
+        required: true,
+        minlength: 2,
+      },
+      phone: {
+        required: true,
+        minlength: 10,
+      },
+      email: {
+        required: true,
+        email: true,
+      },
+    },
+    messages: {
+      name: {
+        required: "Пожалуйста, введите свое имя",
+        minlength: jQuery.validator.format("Обязательно минимум {0} символа!"),
+      },
+      phone: {
+        required: "Пожалуйста, введите свой номер телефона",
+        minlength: jQuery.validator.format("Обязательно минимум {0} символа!"),
+      },
+      email: {
+        required: "Пожалуйста, введите свою почту",
+        email: "Неправильно введен адрес почты",
+      },
+    },
+  });
+}
 
-//   validateForms("#consultation-form");
-//   validateForms("#consultation form");
-//   validateForms("#order form");
+validateForms("#recall .recall_form");
+validateForms(".price_form");
 
-//   // Маска для номера телефона
-//   $("input[name=phone").mask("+7 (999) 999-99-99");
+// Маска для номера телефона
+$("input[name=phone").mask("+7 (999) 999-99-99");
 
 //   // Отправка PHP запроса
 //   $("form").submit(function (e) {
