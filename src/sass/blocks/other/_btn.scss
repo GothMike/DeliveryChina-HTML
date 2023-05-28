@@ -1,0 +1,42 @@
+.btn {
+  width: 160px;
+  height: 45px;
+  background-color: $main-color;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $second-color;
+  border: none;
+  border-radius: 45px;
+  align-self: center;
+  &:focus {
+    outline: none;
+  }
+  &__primary {
+    width: 230px;
+    height: 57px;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $second-color;
+    align-self: center;
+  }
+  &__form {
+    width: 180px;
+    height: 45px;
+    align-self: center;
+    place-self: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .btn {
+    width: 140px;
+    height: 40px;
+    &__form {
+      font-size: 9px;
+    }
+  }
+}

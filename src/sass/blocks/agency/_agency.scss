@@ -1,0 +1,24 @@
+.agency,
+.manager {
+  padding: 60px 0 75px 0;
+  min-height: 340px;
+  background: linear-gradient(to right, rgba(46, 46, 46, 0.8), rgba(46, 46, 46, 0.8)), url("../img/bg/BG_agency.webp") center / cover no-repeat;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  &__circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 102px;
+    height: 102px;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    margin-bottom: 18px;
+    img {
+      width: 48px;
+      height: 51px;
+    }
+  }
+}
