@@ -1,0 +1,16 @@
+@import url(./variables.scss);
+@import url(./fonts.scss);
+@import url(./animations.scss);
+
+@import url(../components/menu/styles/menu.scss);
+@import url(../components/menu/styles/media.scss);
+
+@import url(../components/pages/MainPage/promo/styles/promo.scss);
+@import url(../components/pages/MainPage/promo/styles/media.scss);
+
+@import url(../components/buttons/btn.scss);
+
+* {
+  font-family: Roboto;
+  margin: 0;
+}
