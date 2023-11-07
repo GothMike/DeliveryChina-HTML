@@ -8,7 +8,31 @@
 @import url(../components/pages/MainPage/promo/styles/promo.scss);
 @import url(../components/pages/MainPage/promo/styles/media.scss);
 
+@import url(../components/pages/MainPage/advantages/styles/advantages.scss);
+@import url(../components/pages/MainPage/advantages/styles/media.scss);
+
+@import url(../components/pages/MainPage/organization/styles/organization.scss);
+@import url(../components/pages/MainPage/organization/styles/media.scss);
+
+@import url(../components/pages/MainPage/agency/styles/agency.scss);
+@import url(../components/pages/MainPage/agency/styles/media.scss);
+
+@import url(../components/pages/MainPage/price/styles/price.scss);
+@import url(../components/pages/MainPage/price/styles/media.scss);
+
+@import url(../components/pages/MainPage/recall/styles/recall.scss);
+@import url(../components/pages/MainPage/recall/styles/media.scss);
+
+@import url(../components/pages/MainPage/scheme/styles/scheme.scss);
+
+@import url(../components/footer/styles/footer.scss);
+@import url(../components/footer/styles/media.scss);
+
 @import url(../components/buttons/btn.scss);
+
+@import url(./additional/carousel.scss);
+@import url(./additional/devider.scss);
+@import url(./additional/title.scss);
 
 * {
   font-family: Roboto;
