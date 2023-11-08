@@ -12,16 +12,19 @@ import Footer from "../../footer/Footer";
 const MainPage = () => {
   return (
     <>
-      <Menu />
-      <Promo />
-      <Advantages />
+      <div className="home">
+        <Menu />
+        <Promo />
+      </div>
+
+      {/* <Advantages />
       <Organization />
       <Agency />
       <Price />
       <Management />
       <Scheme />
       <Recall />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

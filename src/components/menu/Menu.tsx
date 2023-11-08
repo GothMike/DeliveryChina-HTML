@@ -1,13 +1,70 @@
+import { Button } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+
 const Menu = (): JSX.Element => {
   return (
     <header>
-      <nav className="menu">
+      <Navbar expand="lg" data-bs-theme="dark" className="menu">
+        <Container>
+          <Navbar.Brand href="#home" className="menu__logo">
+            <img
+              src="icons/glopt.svg"
+              width="100"
+              height="100"
+              className="d-inline-block align-top"
+              alt="React Bootstrap logo"
+            />
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav" className="menu__wrapper">
+            <Nav>
+              <ul className="menu__links">
+                <li className="menu__item">
+                  <Nav.Link className="menu__link" href="#home">
+                    Преимущества
+                  </Nav.Link>
+                </li>
+                <li className="menu__item">
+                  <Nav.Link className="menu__link" href="#link">
+                    Наша работа
+                  </Nav.Link>
+                </li>
+                <li className="menu__item">
+                  <Nav.Link className="menu__link" href="#link">
+                    Схема работы
+                  </Nav.Link>
+                </li>
+                <li className="menu__item">
+                  <Nav.Link className="menu__link" href="#link">
+                    Отзывы
+                  </Nav.Link>
+                </li>
+                <li className="menu__item">
+                  <Nav.Link className="menu__link" href="#link">
+                    Контакты
+                  </Nav.Link>
+                </li>
+              </ul>
+            </Nav>
+            <div className="menu__call">
+              <div className="menu__call-header">
+                <div className="menu__call-title">Есть вопросы?</div>
+                <div className="menu__call-number">+7 (926) 423 01 00</div>
+              </div>
+              <Button variant="primary">Перезвонить мне</Button>{" "}
+            </div>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+
+      {/* <nav className="menu">
         <div className="hamburger">
           <span></span>
           <span className="long"></span>
           <span></span>
         </div>
-
         <div className="menu__wrapper">
           <div className="menu__logo">
             <img src="icons/circle/Logo.webp" alt="Logo" />
@@ -60,11 +117,12 @@ const Menu = (): JSX.Element => {
             <div className="menu__number">+7 (926) 423 01 00</div>
             <div className="menu__btn">
               <button className="btn">Перезвонить мне</button>
+              <Button variant="primary">Primary</Button>{" "}
             </div>
           </div>
           <div className="menu__overlay"></div>
         </div>
-      </nav>
+      </nav> */}
     </header>
   );
 };

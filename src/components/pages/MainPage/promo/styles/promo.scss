@@ -1,12 +1,6 @@
 .promo {
-  position: absolute;
-  top: 0;
   width: 100%;
   min-height: 680px;
-  padding: 130px 0 85px 0;
-  background: linear-gradient(to right, rgba(46, 46, 46, 0.8), rgba(46, 46, 46, 0.8)),
-    url("../../../../../assets/img/bg/BG_768.webp") center / cover no-repeat;
-
   &__header {
     display: flex;
     flex-wrap: wrap;

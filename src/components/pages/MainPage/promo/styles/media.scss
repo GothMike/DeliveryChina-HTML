@@ -1,6 +1,5 @@
 @media (max-width: 1439px) {
   .promo {
-    padding: 128px 0 0 0;
     &__name {
       margin-bottom: 11px;
     }
@@ -20,7 +19,6 @@
 
 @media (max-width: 992px) {
   .promo {
-    padding: 225px 0 40px 0;
     &__name {
       font-size: 20px;
     }
@@ -58,7 +56,6 @@
 
 @media (max-width: 576px) {
   .promo {
-    padding: 275px 0 50px 0;
     &__tasks {
       grid-template-rows: 100px;
     }
