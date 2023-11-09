@@ -7,6 +7,8 @@
     height: 100%;
   }
   &__logo {
+    width: 150px;
+    height: 150px;
     img {
       width: 100%;
       height: 100%;
@@ -25,7 +27,6 @@
     margin: 0 5px;
     scroll-behavior: smooth;
     &:last-child {
-      margin-right: 0;
       border-right: none;
     }
     a {

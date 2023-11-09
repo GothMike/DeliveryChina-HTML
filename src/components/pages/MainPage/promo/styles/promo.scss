@@ -1,18 +1,20 @@
 .promo {
   width: 100%;
-  min-height: 680px;
+  min-height: 550px;
   &__header {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
   &__name {
     font-size: 24px;
     line-height: 1.2;
     font-weight: 300;
     color: var(--primary-color);
-    margin-bottom: 27px;
+    margin-bottom: 10px;
   }
   &__activity {
     font-size: 72px;
@@ -49,14 +51,15 @@
     margin: 0 auto;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
   }
   &__descr {
     max-width: 250px;
     max-height: 60px;
     font-size: 16px;
     line-height: 22px;
-    font-weight: 300;
     color: var(--primary-color);
+    font-family: Roboto Light;
     text-align: center;
   }
 }

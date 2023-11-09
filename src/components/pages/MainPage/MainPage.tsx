@@ -1,5 +1,3 @@
-import Menu from "../../menu/Menu";
-import Promo from "./promo/Promo";
 import Advantages from "./advantages/Advantages";
 import Organization from "./organization/Organization";
 import Agency from "./agency/Agency";
@@ -8,15 +6,12 @@ import Scheme from "./scheme/Scheme";
 import Recall from "./recall/Recall";
 import Price from "./price/Price";
 import Footer from "../../footer/Footer";
+import Home from "../../home/Home";
 
 const MainPage = () => {
   return (
     <>
-      <div className="home">
-        <Menu />
-        <Promo />
-      </div>
-
+      <Home />
       {/* <Advantages />
       <Organization />
       <Agency />
