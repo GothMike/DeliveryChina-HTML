@@ -1,6 +1,5 @@
 @media (max-width: 1439px) {
   .promo {
-    padding: 128px 0 0 0;
     &__name {
       margin-bottom: 11px;
     }
@@ -11,16 +10,23 @@
       font-size: 35px;
     }
     &__tasks {
-      grid-template-columns: repeat(2, 2fr);
-      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(4, 2fr);
+      grid-template-rows: repeat(2, 2fr);
       column-gap: 20px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .promo {
+    &__descr {
+      font-size: 14px;
     }
   }
 }
 
 @media (max-width: 992px) {
   .promo {
-    padding: 225px 0 40px 0;
     &__name {
       font-size: 20px;
     }
@@ -44,13 +50,16 @@
 
 @media (max-width: 767px) {
   .promo {
+    &__name {
+      font-size: 18px;
+    }
     &__tasks {
       grid-template-columns: 1fr;
-      grid-template-rows: 150px;
+      grid-template-rows: 93px;
+      row-gap: 50px;
+
       button {
         grid-row: auto;
-        grid-column: 1;
-        font-size: 14px;
       }
     }
   }
@@ -58,9 +67,11 @@
 
 @media (max-width: 576px) {
   .promo {
-    padding: 275px 0 50px 0;
     &__tasks {
       grid-template-rows: 100px;
+      button {
+        grid-column: 1;
+      }
     }
     &__header {
       text-align: center;
@@ -83,7 +94,7 @@
       font-size: 11px;
     }
     &__activity {
-      font-size: 21px;
+      font-size: 20px;
     }
     &__delivery {
       font-size: 12px;
