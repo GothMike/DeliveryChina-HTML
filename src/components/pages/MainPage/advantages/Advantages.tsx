@@ -8,7 +8,11 @@ const Advantages = () => {
         <div className="advantages__items">
           <div className="advantages__item">
             <div className="advantages__img">
-              <img src="icons/advantages/advantages_1.webp" alt="advantages_1" />
+              <img
+                src="icons/advantages/advantages_1.svg"
+                alt="advantages_1"
+                className="advantages__img"
+              />
             </div>
             <div className="advantages__header">Офисы в Китае и России</div>
             <div className="advantages__descr">
@@ -17,7 +21,11 @@ const Advantages = () => {
             </div>
           </div>
           <div className="advantages__item">
-            <img src="icons/advantages/advantages_2.webp" alt="" className="advantages__img" />
+            <img
+              src="icons/advantages/advantages_2.svg"
+              alt="advantages_2"
+              className="advantages__img"
+            />
             <div className="advantages__header">Декларируем груз с оптимизацией</div>
             <div className="advantages__descr">
               Идем на встречу своим клиентам и помогаем растаможить груз с оптимизацией кодов и
@@ -25,7 +33,11 @@ const Advantages = () => {
             </div>
           </div>
           <div className="advantages__item">
-            <img src="icons/advantages/advantages_3.webp" alt="" className="advantages__img" />
+            <img
+              src="icons/advantages/advantages_3.svg"
+              alt="advantages_3"
+              className="advantages__img"
+            />
             <div className="advantages__header">Квалифицированные кадры</div>
             <div className="advantages__descr">
               Наши сотрудники имеют большой опыт в логистике с Китаем и в совершенстве владеют
@@ -33,14 +45,22 @@ const Advantages = () => {
             </div>
           </div>
           <div className="advantages__item">
-            <img src="icons/advantages/advantages_4.webp" alt="" className="advantages__img" />
+            <img
+              src="icons/advantages/advantages_4.svg"
+              alt="advantages_4"
+              className="advantages__img"
+            />
             <div className="advantages__header">Осуществляем поиск производителей</div>
             <div className="advantages__descr">
               Помогаем нашим клиентам найти интересующий вас товар или производителя в Китае.
             </div>
           </div>
           <div className="advantages__item">
-            <img src="icons/advantages/advantages_5.webp" alt="" className="advantages__img" />
+            <img
+              src="icons/advantages/advantages_5.svg"
+              alt="advantages_5"
+              className="advantages__img"
+            />
             <div className="advantages__header">Собственный склад в Китае</div>
             <div className="advantages__descr">
               Свой склад в Китае, позволяет собирать и проверять и упаковывать ваши товары, перед
@@ -48,14 +68,22 @@ const Advantages = () => {
             </div>
           </div>
           <div className="advantages__item">
-            <img src="icons/advantages/advantages_6.webp" alt="" className="advantages__img" />
+            <img
+              src="icons/advantages/advantages_6.svg"
+              alt="advantages_6"
+              className="advantages__img"
+            />
             <div className="advantages__header">Перевод денег в Китай</div>
             <div className="advantages__descr">
               Помогаем переводить и оплачивать товар в Китае на льготных условиях
             </div>
           </div>
           <div className="advantages__item">
-            <img src="icons/advantages/advantages_7.webp" alt="" className="advantages__img" />
+            <img
+              src="icons/advantages/advantages_7.svg"
+              alt="advantages_7"
+              className="advantages__img"
+            />
             <div className="advantages__header">Делаем оптовые поставки под ключ</div>
             <div className="advantages__descr">
               Берём на себя все заботы связанные с закупкой, проверкой на качество, логистикой и
@@ -64,7 +92,11 @@ const Advantages = () => {
             </div>
           </div>
           <div className="advantages__item">
-            <img src="icons/advantages/advantages_8.webp" alt="" className="advantages__img" />
+            <img
+              src="icons/advantages/advantages_8.svg"
+              alt="advantages_8"
+              className="advantages__img"
+            />
             <div className="advantages__header">Поездка на производство в Китай</div>
             <div className="advantages__descr">
               У нас большой опыт в бизнес поездках по Китаю. Мы с большой радостью и желанием

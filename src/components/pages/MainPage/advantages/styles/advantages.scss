@@ -1,5 +1,5 @@
 .advantages {
-  padding: 630px 0 75px 0;
+  padding: 56px 0 60px 0;
   width: 100%;
   min-height: 590px;
   background-color: #f3f3f3;
@@ -11,6 +11,7 @@
     grid-auto-flow: row;
     column-gap: 100px;
     row-gap: 40px;
+    width: 100%;
   }
   &__item {
     display: grid;
@@ -23,6 +24,8 @@
     grid-row: 1 / 3;
     grid-column: 1 / 1;
     margin-right: 15px;
+    max-width: 62px;
+    max-height: 65px;
   }
   &__header {
     display: block;
@@ -30,16 +33,15 @@
     grid-row: 1 / 1;
     grid-column: 2 / 4;
     font-size: 16px;
-    line-height: 22px;
-    font-weight: 700;
+    font-family: Roboto bold;
     color: var(--selected-color);
     margin: 0 0;
   }
   &__descr {
+    margin-top: 15px;
     grid-row: 2 / 3;
     grid-column: 2 / 4;
     font-size: 14px;
-    font-weight: 300;
     color: var(--secondary-color);
   }
 }
