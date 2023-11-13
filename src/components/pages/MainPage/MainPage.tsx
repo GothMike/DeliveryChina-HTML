@@ -13,8 +13,8 @@ const MainPage = () => {
     <>
       <Home />
       <Advantages />
-      {/*<Organization />
-      <Agency />
+      <Organization />
+      {/* <Agency />
       <Price />
       <Management />
       <Scheme />
