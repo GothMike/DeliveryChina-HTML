@@ -14,8 +14,8 @@ const MainPage = () => {
       <Home />
       <Advantages />
       <Organization />
-      {/* <Agency />
-      <Price />
+      <Agency />
+      {/*  <Price />
       <Management />
       <Scheme />
       <Recall />

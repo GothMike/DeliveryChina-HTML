@@ -1,7 +1,9 @@
+import { Container } from "react-bootstrap";
+
 const Organization = () => {
   return (
     <section id="works" className="organization">
-      <div className="container">
+      <Container>
         <div className="title">Цены на любой вариант доставки</div>
         <div className="devider__single"></div>
         <div className="subtitle">
@@ -48,7 +50,7 @@ const Organization = () => {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
     </section>
   );
 };

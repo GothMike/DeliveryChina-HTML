@@ -2,7 +2,7 @@
 .management {
   padding: 60px 0 75px 0;
   min-height: 340px;
-  background: linear-gradient(to right, rgba(46, 46, 46, 0.8), rgba(46, 46, 46, 0.8)),
+  background: linear-gradient(to right, rgba(46, 46, 46, 0.5), rgba(46, 46, 46, 0.5)),
     url("../../../../../assets/img/bg/BG_agency.webp") center / cover no-repeat;
   &__wrapper {
     display: flex;
@@ -16,7 +16,7 @@
     height: 102px;
     border: 1px solid #ffffff;
     border-radius: 100%;
-    margin-bottom: 18px;
+    margin: 0 auto 35px auto;
     img {
       width: 48px;
       height: 51px;

@@ -33,8 +33,12 @@
   }
   &__descr {
     font-size: 14px;
-    font-weight: 300;
     color: #3a3a3a;
     text-align: justify;
+    font-family: Roboto light;
+    p {
+      max-height: 150px;
+      overflow: hidden;
+    }
   }
 }

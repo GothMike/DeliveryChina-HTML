@@ -24,8 +24,10 @@
   &_white {
     font-size: 19px;
     line-height: 27px;
-    font-weight: 300;
+    font-family: Roboto light;
     color: var(--primary-color);
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
@@ -50,7 +52,6 @@
   }
   .subtitle {
     font-size: 15px;
-    padding: 0 15px;
   }
 }
 
