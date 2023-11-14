@@ -22,7 +22,6 @@
     }
     &__subtitle {
       font-size: 20px;
-      width: 500px;
     }
     &__btn {
       margin-top: 90px;
@@ -37,11 +36,20 @@
     &__title {
       font-size: 20px;
     }
+    &__btn {
+      button {
+        font-size: 10px;
+      }
+    }
   }
 }
 
 @media (max-width: 576px) {
   .price {
+    &__title {
+      padding: 0 5px;
+      text-align: center;
+    }
     &__wrapper {
       &-form {
         width: 80%;
@@ -60,7 +68,7 @@
       font-size: 17px;
     }
     &__btn {
-      width: 60%;
+      width: 70%;
     }
   }
 }

@@ -10,6 +10,7 @@
   border: none;
   border-radius: 45px;
   align-self: center;
+  transition: all 0.5s;
   &:focus {
     outline: none;
   }
@@ -29,6 +30,10 @@
     align-self: center;
     place-self: center;
   }
+  &:hover {
+    background-color: var((--selected-btn-color));
+    color: var(--primary-color);
+  }
 }
 
 @media (max-width: 1200px) {
@@ -41,6 +46,9 @@
       width: 180px;
       height: 45px;
       margin-bottom: 50px;
+    }
+    &__form {
+      width: 180px;
     }
   }
 }

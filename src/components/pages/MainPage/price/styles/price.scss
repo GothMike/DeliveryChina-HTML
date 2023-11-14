@@ -1,13 +1,10 @@
 .price {
   min-height: 950px;
   padding: 50px 0 60px 0;
-  &__subtitle {
-    width: 700px;
-  }
   &__items {
     display: flex;
     background-color: var(--primary-color);
-    align-items: flex-start;
+    justify-content: center;
     column-gap: 10px;
   }
   &__item {
@@ -34,9 +31,10 @@
   &__descr {
     display: flex;
     height: 100%;
-    width: 235px;
+    width: 100%;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
   }
   &__time {
     font-size: 14px;
@@ -57,15 +55,14 @@
     font-weight: 300;
     color: var(--secondary-color);
     text-align: center;
+    padding: 0 8px;
   }
 
   &__consultation {
     display: flex;
     flex-direction: column;
     margin-top: 60px;
-    form {
-      margin: initial;
-    }
+    align-items: center;
     label.error {
       color: red;
       display: flex;
@@ -90,8 +87,13 @@
     justify-content: center;
   }
   &__wrapper {
+    width: 100%;
+    justify-content: center;
+    display: flex;
     &-circle {
-      width: 45%;
+      display: flex;
+      justify-content: center;
+      width: 50%;
       height: 100%;
       grid-row: 1 / 1;
       grid-column: 2 / 3;
@@ -112,7 +114,6 @@
     justify-content: center;
     border: 1px solid var(--selected-color);
     border-radius: 100%;
-    padding: 50px;
   }
   &__btn {
     display: flex;
@@ -123,5 +124,8 @@
     grid-column: 2 / 3;
     margin-top: 55px;
     background-color: var(--primary-color);
+    button {
+      font-size: 11px;
+    }
   }
 }

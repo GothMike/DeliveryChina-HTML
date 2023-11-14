@@ -1,7 +1,10 @@
+import { Container } from "react-bootstrap";
+import Form from "../../../form/Form";
+
 const Price = () => {
   return (
     <section id="price" className="price">
-      <div className="container">
+      <Container>
         <div className="title">Цены на любой вариант доставки</div>
         <div className="devider__single"></div>
         <div className="subtitle price__subtitle">
@@ -13,7 +16,7 @@ const Price = () => {
             <div className="price__header">Доставка морем</div>
             <div className="price__descr">
               <div className="price__icon">
-                <img src="icons/price/price_1.webp" alt="price_1" />
+                <img src="icons/price/price_1.svg" alt="price_1" />
               </div>
               <div className="price__delivery">
                 <div className="price__time">Доставка 35-50 дней</div>
@@ -29,7 +32,7 @@ const Price = () => {
             <div className="price__header">Ж/Д доставка</div>
             <div className="price__descr">
               <div className="price__icon">
-                <img src="icons/price/price_2.webp" alt="price_1" />
+                <img src="icons/price/price_2.svg" alt="price_2" />
               </div>
               <div className="price__delivery">
                 <div className="price__time">Доставка 15-28 дней</div>
@@ -45,7 +48,7 @@ const Price = () => {
             <div className="price__header">Автодоставка</div>
             <div className="price__descr">
               <div className="price__icon">
-                <img src="icons/price/price_3.webp" alt="price_1" />
+                <img src="icons/price/price_3.svg" alt="price_3" />
               </div>
               <div className="price__delivery">
                 <div className="price__time">Доставка 12-20 дня</div>
@@ -61,7 +64,7 @@ const Price = () => {
             <div className="price__header">Авиа доставка</div>
             <div className="price__descr">
               <div className="price__icon">
-                <img src="icons/price/price_4.webp" alt="price_1" />
+                <img src="icons/price/price_4.svg" alt="price_4" />
               </div>
               <div className="price__delivery">
                 <div className="price__time">Доставка 1-12 дней</div>
@@ -74,33 +77,8 @@ const Price = () => {
             </div>
           </div>
         </div>
-        <div id="#consultation" className="price__consultation">
-          <div className="price__title">Заказать бесплатную консультацию</div>
-          <form className="price_form" action="#">
-            <div className="price__wrapper-form">
-              <div className="price__form">
-                <div className="price__wrapper-circle">
-                  <div className="price__circle">
-                    <img src="icons/circle/consulation_circle.webp" alt="consultation" />
-                  </div>
-                </div>
-                <div className="recall__input">
-                  <input placeholder="Ваше имя" name="name" type="text" />
-                </div>
-                <div className="recall__input">
-                  <input placeholder="Ваш телефон" name="phone" />
-                </div>
-                <div className="recall__input">
-                  <input placeholder="Ваш E-mail" name="email" type="email" />
-                </div>
-                <div className="price__btn">
-                  <button className="btn btn__form">Заказать консультацию</button>
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
+        <Form />
+      </Container>
     </section>
   );
 };
