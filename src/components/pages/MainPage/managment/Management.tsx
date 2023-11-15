@@ -4,7 +4,7 @@ const Management = () => {
       <div className="container">
         <div className="management__wrapper">
           <div className="management__circle">
-            <img src="icons/circle/manager_circle.webp" alt="management_circle" />
+            <img src="icons/circle/manager_circle.svg" alt="management_circle" />
           </div>
           <div className="title title_white">Менеджеры компании</div>
           <div className="subtitle subtitle_white">

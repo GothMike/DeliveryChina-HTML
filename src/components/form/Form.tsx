@@ -7,7 +7,7 @@ const Form = () => {
           <div className="price__form">
             <div className="price__wrapper-circle">
               <div className="price__circle">
-                <img src="icons/circle/consulation_circle.webp" alt="consultation" />
+                <img src="icons/circle/consulation_circle.svg" alt="consultation" />
               </div>
             </div>
             <div className="recall__input">
